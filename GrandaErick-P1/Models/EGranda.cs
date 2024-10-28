@@ -16,7 +16,7 @@ namespace GrandaErick_P1.Models
         [DataType(DataType.Date)]
         public DateTime Fecha { get; set; }
 
-        public Celular Celular { get; set; }
+        public Celular? Celular { get; set; }
 
         [ForeignKey("Celular")]
         public int IDCelular { get; set; }
