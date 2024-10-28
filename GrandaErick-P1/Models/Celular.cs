@@ -9,6 +9,7 @@ namespace GrandaErick_P1.Models
         public int ID { get; set; }
         [Required]
         [StringLength(50)]
+        [Display(Name = "Modelo")]
         public string Modelo { get; set; }
         public int Año { get; set; }
         public float Precio { get; set; }
